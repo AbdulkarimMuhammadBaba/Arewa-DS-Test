@@ -1,5 +1,5 @@
 # 1: cheking version of python
-python --version
+# python --version
 # 2: doing operations
 print(8+8)
 print(9-5)
