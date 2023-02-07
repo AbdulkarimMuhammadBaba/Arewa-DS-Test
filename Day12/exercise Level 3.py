@@ -5,12 +5,12 @@ def shuffled_list(array):
 print(shuffled_list([0,5,6,6]))
 #2
 def seven_random():
-    arr = []
+    ary = []
     length = -1
     while length <= 7:
         num = random.randint(0, 9)
-        if num not in arr:
+        if num not in ary:
             arr.append(num)
-            length = len(arr)
-    return arr
+            length = len(ary)
+    return ary
 print(seven_random())
