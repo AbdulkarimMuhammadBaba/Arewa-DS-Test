@@ -1,2 +1,4 @@
 names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']
-print (*names [0:-2])
+Nordic_countries=[*names[0:-2]] 
+Es=[*names[-5]]
+Ru=[*names [-1]]
