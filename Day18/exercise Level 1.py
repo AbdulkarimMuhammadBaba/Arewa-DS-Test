@@ -16,5 +16,5 @@ for i in points:
     i=int(i)
     lst.append(i)
 lst.sort()
-print("sorte]d_points: ",lst)
+print("sorted_points: ",lst)
 print (f"distance {lst[-1]} - ({lst[0]}) = ", lst[-1]-lst[0])
