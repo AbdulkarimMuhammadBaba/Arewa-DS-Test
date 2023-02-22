@@ -1,0 +1,11 @@
+def is_valid_variable(variable):
+    if re.search(r"^[a-zA-Z_]\w*$", thevariable):
+        return True
+    else:
+        return False
+
+
+print(is_valid_variable("first_name"))
+print(is_valid_variable("first-name"))
+Print(is_valid_variable("1first_name"))
+print(is_valid_variable("firstname"))
